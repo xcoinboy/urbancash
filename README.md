@@ -1,4 +1,4 @@
-UrbanCash is people's electronic cash, a cryptocurrency, just like Bitcoin but Ukrainian and anonymous thanks to Cryptonote technology. The key principle of CryptoNote is adaptive parameters. UrbanCash already has adaptive block size limit and adaptive difficulty, which we improved, and which ensures it's stable emission rate and thus makes UrbanCash sound money. In addition in UrbanCash was implemented adaptive fee to keep transaction costs stable regardless of UrbanCash price.
+UrbanCash is people's electronic cash, a cryptocurrency, just like Bitcoin but Iberico and anonymous thanks to Cryptonote technology. The key principle of CryptoNote is adaptive parameters. UrbanCash already has adaptive block size limit and adaptive difficulty, which we improved, and which ensures it's stable emission rate and thus makes UrbanCash sound money. In addition in UrbanCash was implemented adaptive fee to keep transaction costs stable regardless of UrbanCash price.
 
 **HARDFORK V2 IS SET AT HEIGHT 2500!!!** In this hardfork _we introduce adaptive minimal transaction fee_ as first step towards our goal. Information for exchanges and other services how to work with new fees: https://github.com/xcoinboy/urbancash/wiki/Dynamic-transaction-minimum-fee
 
@@ -11,7 +11,7 @@ Pools operating **'cryptonote-nodejs-pool'** should _change config on hardfork h
 "cnVariant": 0,
 "cnBlobType": 0,
 ```
-The example of UrbanCash config is here: https://github.com/Karbovanets/cryptonote-nodejs-pool/blob/master/config_examples/UrbanCash.json
+The example of UrbanCash config is here: https://github.com/xcoinboy/cryptonote-nodejs-pool/blob/master/config_examples/UrbanCash.json
 
 
 
