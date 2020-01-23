@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCryptoNoteProtocol.a  CMakeFiles/CryptoNoteProtocol.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o
+/usr/bin/ranlib libCryptoNoteProtocol.a

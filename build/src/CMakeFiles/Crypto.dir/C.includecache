@@ -1,0 +1,280 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/Common/int-util.h
+assert.h
+-
+stdbool.h
+-
+stdint.h
+-
+string.h
+-
+sys/param.h
+-
+math.h
+-
+byteswap.h
+-
+stdlib.h
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Common/static_assert.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/aesb.h
+stdint.h
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/blake256.c
+string.h
+-
+stdio.h
+-
+stdint.h
+-
+blake256.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/blake256.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/blake256.h
+stdint.h
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/crypto-ops-data.c
+stdint.h
+-
+crypto-ops.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/crypto-ops.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/crypto-ops.c
+assert.h
+-
+stdint.h
+-
+crypto-ops.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/crypto-ops.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/crypto-ops.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/groestl.c
+groestl.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/groestl.h
+groestl_tables.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/groestl_tables.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/groestl.h
+crypto_uint8.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/crypto_uint8.h
+crypto_uint32.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/crypto_uint32.h
+crypto_uint64.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/crypto_uint64.h
+crypto_hash.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/crypto_hash.h
+stdint.h
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/groestl_tables.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/hash-extra-blake.c
+stddef.h
+-
+stdint.h
+-
+blake256.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/blake256.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/hash-extra-groestl.c
+stddef.h
+-
+stdint.h
+-
+groestl.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/groestl.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/hash-extra-jh.c
+assert.h
+-
+stddef.h
+-
+stdint.h
+-
+string.h
+-
+jh.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/jh.h
+hash-ops.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/hash-ops.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/hash-extra-skein.c
+stddef.h
+-
+stdint.h
+-
+hash-ops.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/hash-ops.h
+skein.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/skein.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/hash-ops.h
+assert.h
+-
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+../Common/static_assert.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Common/static_assert.h
+Common/int-util.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/Common/int-util.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/hash.c
+stddef.h
+-
+stdint.h
+-
+string.h
+-
+hash-ops.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/hash-ops.h
+keccak.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/keccak.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/jh.c
+jh.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/jh.h
+stdint.h
+-
+string.h
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/jh.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/keccak.c
+hash-ops.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/hash-ops.h
+keccak.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/keccak.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/keccak.h
+stdint.h
+-
+string.h
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/oaes_config.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/oaes_lib.c
+stddef.h
+-
+time.h
+-
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+malloc.h
+-
+sys/timeb.h
+-
+sys/time.h
+-
+process.h
+-
+sys/types.h
+-
+unistd.h
+-
+oaes_config.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/oaes_config.h
+oaes_lib.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/oaes_lib.h
+rand.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/rand.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/oaes_lib.h
+stdint.h
+-
+stdlib.h
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/skein.c
+stddef.h
+-
+string.h
+-
+skein.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/skein.h
+assert.h
+-
+assert.h
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/skein.h
+skein_port.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/skein_port.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/skein_port.h
+limits.h
+-
+stdint.h
+-
+Common/int-util.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/Common/int-util.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/slow-hash.c
+assert.h
+-
+stddef.h
+-
+stdint.h
+-
+string.h
+-
+Common/int-util.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/Common/int-util.h
+hash-ops.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/hash-ops.h
+oaes_lib.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/oaes_lib.h
+aesb.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/aesb.h
+emmintrin.h
+-
+intrin.h
+-
+windows.h
+-
+intrin.h
+-
+windows.h
+-
+wmmintrin.h
+-
+sys/mman.h
+-
+arm_neon.h
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/tree-hash.c
+alloca.h
+-
+assert.h
+-
+stddef.h
+-
+stdlib.h
+-
+string.h
+-
+hash-ops.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/crypto/hash-ops.h
+

@@ -1,0 +1,17 @@
+[Unit]
+Description=Karbowanec KRB service
+After=network.target
+
+[Service]
+Type=oneshot
+User=UrbanCash
+Group=UrbanCash
+PermissionsStartOnly=true
+RemainAfterExit=yes
+ExecStartPre=-/bin/mkdir -p /var/run/UrbanCash
+ExecStartPre=/bin/chown -R UrbanCash:UrbanCash /var/run/UrbanCash/
+ExecStart=/usr/lib/UrbanCash/krbd.sh --start
+ExecStop=/usr/lib/UrbanCash/krbd.sh --stop
+
+[Install]
+WantedBy=multi-user.target

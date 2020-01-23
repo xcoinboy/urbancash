@@ -1,0 +1,140 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/Common/ConsoleTools.h
+cstdint
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Common/JsonValue.h
+cstddef
+-
+cstdint
+-
+map
+-
+string
+-
+vector
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/CommonLogger.cpp
+CommonLogger.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/CommonLogger.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/CommonLogger.h
+set
+-
+ILogger.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/ILogger.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/ConsoleLogger.cpp
+ConsoleLogger.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/ConsoleLogger.h
+iostream
+-
+unordered_map
+-
+Common/ConsoleTools.h
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/ConsoleLogger.h
+mutex
+-
+CommonLogger.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/CommonLogger.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/FileLogger.cpp
+FileLogger.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/FileLogger.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/FileLogger.h
+fstream
+-
+StreamLogger.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/StreamLogger.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/ILogger.cpp
+ILogger.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/ILogger.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/ILogger.h
+string
+-
+array
+-
+boost/date_time/posix_time/posix_time.hpp
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/LoggerGroup.cpp
+LoggerGroup.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/LoggerGroup.h
+algorithm
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/LoggerGroup.h
+vector
+-
+CommonLogger.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/CommonLogger.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/LoggerManager.cpp
+LoggerManager.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/LoggerManager.h
+thread
+-
+ConsoleLogger.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/ConsoleLogger.h
+FileLogger.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/FileLogger.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/LoggerManager.h
+list
+-
+memory
+-
+mutex
+-
+../Common/JsonValue.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Common/JsonValue.h
+LoggerGroup.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/LoggerGroup.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/LoggerMessage.cpp
+LoggerMessage.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/LoggerMessage.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/LoggerMessage.h
+ILogger.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/ILogger.h
+iostream
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/LoggerRef.cpp
+LoggerRef.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/LoggerRef.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/LoggerRef.h
+ILogger.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/ILogger.h
+LoggerMessage.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/LoggerMessage.h
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/StreamLogger.cpp
+StreamLogger.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/StreamLogger.h
+iostream
+-
+sstream
+-
+
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/StreamLogger.h
+mutex
+-
+CommonLogger.h
+/home/fmarques/Área de Trabalho/karbowanec urbancash/src/Logging/CommonLogger.h
+
