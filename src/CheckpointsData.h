@@ -1,4 +1,3 @@
-// Copyright (c) 2012-2016, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2016-2018, The Karbowanec developers
 //
 // This file is part of UrbanCash.
@@ -29,12 +28,6 @@ struct CheckpointData {
 };
 
 const std::initializer_list<CheckpointData> CHECKPOINTS = { 
- {  2,  "71de746366af9ad6ddf7c8c88a6de84039fe5e26dede4bb2cd6dd0b83abb4844" },
- {  1000,  "055848912f146d8659b08a8617e61d8a17cdfef0186cdb5343be667a739591f1" },
- {  2000,  "a2f14601958edf4cffdd7c9bdf276fc2f8b6f8d56763f430b9eb8826559006fe" },
- {  2500,  "8e411c7f536ee3c66efccfdaceb3a2e0d68b62afbc4840f9b4df9e69f9384e8a" },
- {  3005,  "0f98fa61cf74fb1e4cf91fe840341aed161fe100798eb83418959067625f8074" },
- 
 };
   
 }
