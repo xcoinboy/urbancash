@@ -1,8 +1,8 @@
 UrbanCash is people's electronic cash, a cryptocurrency, just like Bitcoin but Ukrainian and anonymous thanks to Cryptonote technology. The key principle of CryptoNote is adaptive parameters. UrbanCash already has adaptive block size limit and adaptive difficulty, which we improved, and which ensures it's stable emission rate and thus makes UrbanCash sound money. In addition in UrbanCash was implemented adaptive fee to keep transaction costs stable regardless of UrbanCash price.
 
-**HARDFORK V4 IS SET AT HEIGHT 266000!!!** In this hardfork _we introduce adaptive minimal transaction fee_ as first step towards our goal. Information for exchanges and other services how to work with new fees: https://github.com/seredat/karbowanec/wiki/Dynamic-transaction-minimum-fee
+**HARDFORK V2 IS SET AT HEIGHT 2500!!!** In this hardfork _we introduce adaptive minimal transaction fee_ as first step towards our goal. Information for exchanges and other services how to work with new fees: https://github.com/xcoinboy/urbancash/wiki/Dynamic-transaction-minimum-fee
 
-Pools operating **'cryptonote-forknote-pool'** or compatible software should update Node-Cryptonote-Util to this version: https://github.com/aivve/node-cryptonote-util. The reference pool software is here: https://github.com/Karbovanets/UrbanCash-pool.
+Pools operating **'cryptonote-forknote-pool'** or compatible software should update Node-Cryptonote-Util to this version: https://github.com/aivve/node-cryptonote-util. The reference pool software is here: https://github.com/xcoinboy/UrbanCash-pool.
 
 Pools operating **'cryptonote-nodejs-pool'** should _change config on hardfork height_. The changes in config are:
 ```
@@ -37,8 +37,8 @@ Run these commands:
 ```
 cd ~
 sudo apt-get install build-essential git cmake libboost-all-dev
-git clone https://github.com/seredat/karbowanec.git
-cd karbowanec
+git clone https://github.com/xcoinboy/urbancash.git
+cd Urbancash
 mkdir build
 cd build
 cmake ..
@@ -83,8 +83,8 @@ For the other we recommand you to use [Homebrew](https://brew.sh)
 Continue with:
 ```
 brew install git cmake boost
-git clone https://github.com/seredat/karbowanec.git
-cd karbowanec
+git clone https://github.com/xcoinboy/urbancash.git
+cd Urbancash
 cd build
 cmake ..
 make
