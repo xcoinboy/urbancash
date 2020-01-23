@@ -1,2 +1,0 @@
-/usr/bin/ar qc libP2P.a  CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.o CMakeFiles/P2P.dir/P2p/NetNode.cpp.o CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.o CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.o
-/usr/bin/ranlib libP2P.a
