@@ -121,7 +121,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "UrbanCash";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001a1cfaed3d406029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121011ed9a3faa0d0075ca78c47ea5d4fcdf490d8113b5d8a1f53e534a24f4df8e1b5";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 const char     DNS_CHECKPOINTS_HOST[]                        = "checkpoints.urbancash.org";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
@@ -173,7 +173,7 @@ const uint32_t P2P_IP_BLOCKTIME                              = (60 * 60 * 24);//
 const uint32_t P2P_IP_FAILS_BEFORE_BLOCK                     = 10;
 const uint32_t P2P_IDLE_CONNECTION_KILL_INTERVAL             = (5 * 60);      //5 minutes
 
-const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
+const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "9f90f9a5a434a9f1510d13336228debfee9c19ce505efe227d8c94d045fa115";
 
 const char* const SEED_NODES[] = { 
  "46.189.246.142:17699", 
