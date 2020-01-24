@@ -121,7 +121,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "UrbanCash";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff000021016177603000a36b7d5f546f2616992117cb2f1a810e036e6433434b14b5c5ac33";
 const char     DNS_CHECKPOINTS_HOST[]                        = "checkpoints.urbancash.org";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
