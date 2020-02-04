@@ -44,13 +44,13 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V1          = 11;
 
 // MONEY_SUPPLY - total number coins to be generated
 const uint64_t MONEY_SUPPLY                                  = UINT64_C(6000000000000000);
-const uint64_t COIN                                          = UINT64_C(1000000000000);
-const uint64_t TAIL_EMISSION_REWARD                          = UINT64_C(1000000000000);
+const uint64_t COIN                                          = UINT64_C(100000000);
+const uint64_t TAIL_EMISSION_REWARD                          = UINT64_C(100000000);
 const size_t CRYPTONOTE_COIN_VERSION                         = 1;
 const unsigned EMISSION_SPEED_FACTOR                         = 18;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
-const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 20000000000;
+const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 1000000; //size of block (bytes) after which reward for block calculated using block size
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2  = 1000000;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1  = 100000;
@@ -120,8 +120,8 @@ const char     CRYPTONOTE_BLOCKCHAIN_INDICES_FILENAME[]      = "blockchainindice
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
 } // parameters
 
-const char     CRYPTONOTE_NAME[]                             = "UrbanCash";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     CRYPTONOTE_NAME[]                             = "UrbanCasH";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001a9eef7a155029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101049b0c9b3dd0de1aaa6d89f9b992e6ca8472f6c8eb5c4f4159998d0a84ca99b1";
 const char     DNS_CHECKPOINTS_HOST[]                        = "checkpoints.urbancash.org";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
@@ -137,8 +137,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by def
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  128;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-const int      P2P_DEFAULT_PORT                              =  17699;
-const int      RPC_DEFAULT_PORT                              =  17799;
+const int      P2P_DEFAULT_PORT                              =  17669;
+const int      RPC_DEFAULT_PORT                              =  17779;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -176,9 +176,10 @@ const uint32_t P2P_IDLE_CONNECTION_KILL_INTERVAL             = (5 * 60);      //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "9f90f9a5a434a9f1510d13336228debfee9c19ce505efe227d8c94d045fa115";
 
 const char* const SEED_NODES[] = { 
- "46.189.246.142:17699", 
-"31.14.136.216:17699",
-"80.211.250.166:17699"
+ "46.189.246.142:17669", 
+"31.14.136.216:17669",
+"80.211.250.166:17669",
+"212.106.240.15:11533"
 };
 
 } // CryptoNote

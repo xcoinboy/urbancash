@@ -313,7 +313,7 @@ bool RpcServer::checkIncomingTransactionForFee(const BinaryArray& tx_blob) {
 	}
 
 	if (amount != 0) {
-		logger(Logging::INFO) << "Masternode received relayed transaction fee: " << m_core.currency().formatAmount(amount) << " KRB";
+		logger(Logging::INFO) << "Masternode received relayed transaction fee: " << m_core.currency().formatAmount(amount) << " URBC";
 		return true;
 	}
 	return false;

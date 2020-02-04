@@ -234,10 +234,10 @@ int main(int argc, char* argv[])
     }
 
     std::cout << ColouredMsg("\n"
-"  |   |      |                  ___|            |       \n"
-"  |   |  __| __ \   _` | __ \  |      _` |  __| __ \    \n"
-"  |   | |    |   | (   | |   | |     (   |\__ \ | | |   \n"
-" \___/ _|   _.__/ \__,_|_|  _|\____|\__,_|____/_| |_|   \n\n", Common::Console::Color::BrightGreen);
+" |   |      |                  ___|            |       \n"
+" |   |  __| __ \   _` | __ \  |      _` |  __| __ \    \n"
+" |   | |    |   | (   | |   | |     (   |\__ \ | | |   \n"
+" \___/ _|   _.__/ \__,_|_|  _|\____|\__,_|____/_| |_|  \n\n", Common::Console::Color::BrightGreen);
 
     logger(INFO) << "Module folder: " << argv[0];
 
