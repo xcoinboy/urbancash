@@ -3,14 +3,6 @@ UrbanCash is people's electronic cash, a cryptocurrency, just like Bitcoin but I
 **HARDFORK V2 IS SET AT HEIGHT 2500!!!** In this hardfork _we introduce adaptive minimal transaction fee_ as first step towards our goal. Information for exchanges and other services how to work with new fees: https://github.com/xcoinboy/urbancash/wiki/Dynamic-transaction-minimum-fee
 
 Pools operating **'cryptonote-forknote-pool'** or compatible software should update Node-Cryptonote-Util to this version: https://github.com/aivve/node-cryptonote-util. The reference pool software is here: https://github.com/xcoinboy/UrbanCash-pool.
-
-Pools operating **'cryptonote-nodejs-pool'** should _change config on hardfork height_. The changes in config are:
-```
-"daemonType": "default",
-"cnAlgorithm": "cryptonight",
-"cnVariant": 0,
-"cnBlobType": 0,
-```
 The example of UrbanCash config is here: https://github.com/xcoinboy/cryptonote-nodejs-pool/blob/master/config_examples/UrbanCash.json
 
 
@@ -83,7 +75,7 @@ For the other we recommand you to use [Homebrew](https://brew.sh)
 Continue with:
 ```
 brew install git cmake boost
-git clone https://github.com/xcoinboy/urbancash.git
+git clone https://github.com/xcoinboy/
 cd Urbancash
 cd build
 cmake ..
