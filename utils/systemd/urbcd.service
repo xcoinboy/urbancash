@@ -1,0 +1,17 @@
+[Unit]
+Description=Urbancash URBC service
+After=network.target
+
+[Service]
+Type=oneshot
+User=urbancash
+Group=urbancash
+PermissionsStartOnly=true
+RemainAfterExit=yes
+ExecStartPre=-/bin/mkdir -p /var/run/urbancash
+ExecStartPre=/bin/chown -R urbancash:urbancash /var/run/urbancash/
+ExecStart=/usr/lib/urbancash/urbcd.sh --start
+ExecStop=/usr/lib/urbancash/urbcd.sh --stop
+
+[Install]
+WantedBy=multi-user.target
