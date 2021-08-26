@@ -2,7 +2,7 @@
 
 Urbancash is people's electronic cash, a cryptocurrency, just like Bitcoin but Ukrainian and anonymous thanks to Cryptonote technology. The key principle of CryptoNote is adaptive parameters. Urbancash already has adaptive block size limit and adaptive difficulty, which we improved, and which ensures it's stable emission rate and thus makes Urbancash sound money. In addition in Urbancash was implemented adaptive fee to keep transaction costs stable regardless of urbancash price.
 
-**HARDFORK V4 IS SET AT HEIGHT 245000!!!** In this hardfork _we introduce adaptive minimal transaction fee_ as first step towards our goal. Information for exchanges and other services how to work with new fees: https://github.com/xcoinboy/urbancash/wiki/Dynamic-transaction-minimum-fee
+**HARDFORK V2 IS SET AT HEIGHT 245000!!!** In this hardfork _we introduce adaptive minimal transaction fee_ as first step towards our goal. Information for exchanges and other services how to work with new fees: https://github.com/xcoinboy/urbancash/wiki/Dynamic-transaction-minimum-fee
 
 Pools operating **'cryptonote-forknote-pool'** or compatible software should update Node-Cryptonote-Util to this version: https://github.com/xcoinboy/node-cryptonote-util. The reference pool software is here: https://github.com/Urbancash/urbancash-pool.
 
