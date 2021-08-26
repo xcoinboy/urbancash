@@ -2,9 +2,9 @@
 
 Urbancash is people's electronic cash, a cryptocurrency, just like Bitcoin but Ukrainian and anonymous thanks to Cryptonote technology. The key principle of CryptoNote is adaptive parameters. Urbancash already has adaptive block size limit and adaptive difficulty, which we improved, and which ensures it's stable emission rate and thus makes Urbancash sound money. In addition in Urbancash was implemented adaptive fee to keep transaction costs stable regardless of urbancash price.
 
-**HARDFORK V4 IS SET AT HEIGHT 266000!!!** In this hardfork _we introduce adaptive minimal transaction fee_ as first step towards our goal. Information for exchanges and other services how to work with new fees: https://github.com/seredat/urbancash/wiki/Dynamic-transaction-minimum-fee
+**HARDFORK V4 IS SET AT HEIGHT 245000!!!** In this hardfork _we introduce adaptive minimal transaction fee_ as first step towards our goal. Information for exchanges and other services how to work with new fees: https://github.com/xcoinboy/urbancash/wiki/Dynamic-transaction-minimum-fee
 
-Pools operating **'cryptonote-forknote-pool'** or compatible software should update Node-Cryptonote-Util to this version: https://github.com/aivve/node-cryptonote-util. The reference pool software is here: https://github.com/Urbancashvanets/urbancash-pool.
+Pools operating **'cryptonote-forknote-pool'** or compatible software should update Node-Cryptonote-Util to this version: https://github.com/xcoinboy/node-cryptonote-util. The reference pool software is here: https://github.com/Urbancash/urbancash-pool.
 
 Pools operating **'cryptonote-nodejs-pool'** should _change config on hardfork height_. The changes in config are:
 ```
@@ -13,7 +13,7 @@ Pools operating **'cryptonote-nodejs-pool'** should _change config on hardfork h
 "cnVariant": 0,
 "cnBlobType": 0,
 ```
-The example of Urbancash config is here: https://github.com/Urbancashvanets/cryptonote-nodejs-pool/blob/master/config_examples/urbancash.json
+The example of Urbancash config is here: https://github.com/Urbancash/cryptonote-nodejs-pool/blob/master/config_examples/urbancash.json
 
 
 
