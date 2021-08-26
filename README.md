@@ -1,4 +1,4 @@
-![Build check](https://github.com/seredat/urbancash/workflows/Build%20check/badge.svg)
+![Build check]("https://updates.urbancash.org/images/logos/logo256x256.png")
 
 Urbancash is people's electronic cash, a cryptocurrency, just like Bitcoin but Ukrainian and anonymous thanks to Cryptonote technology. The key principle of CryptoNote is adaptive parameters. Urbancash already has adaptive block size limit and adaptive difficulty, which we improved, and which ensures it's stable emission rate and thus makes Urbancash sound money. In addition in Urbancash was implemented adaptive fee to keep transaction costs stable regardless of urbancash price.
 
@@ -13,7 +13,7 @@ Pools operating **'cryptonote-nodejs-pool'** should _change config on hardfork h
 "cnVariant": 0,
 "cnBlobType": 0,
 ```
-The example of Urbancash config is here: https://github.com/Urbancash/cryptonote-nodejs-pool/blob/master/config_examples/urbancash.json
+The example of Urbancash config is here: https://github.com/xcoinboy/cryptonote-nodejs-pool/blob/master/config_examples/urbancash.json
 
 
 
